@@ -1,0 +1,56 @@
+ /* Default styling for input and button */
+.display{
+    display: flex;
+    justify-content: center;
+}
+ .input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 1%;
+    height: 43px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .custom-button {
+    padding: 8px 10px 10px 10px;
+    background-color: #501f07;
+    color: white;
+    border: none;
+    width: 12%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #7b300b;
+  }
+  
+  /* Media query for small screens (e.g., mobile) */
+  @media (max-width: 768px) {
+    .input {
+      width: 100%;
+    }
+  
+    .custom-button {
+      width: 100%;
+    }
+  }
+  
+  /* Media query for medium screens (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .input {
+      width: 70%;
+    }
+  
+    .custom-button {
+      width: 28%;
+    }
+  }
+  
